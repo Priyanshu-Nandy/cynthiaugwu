@@ -28,8 +28,8 @@ function firstpageanim(){
 }
 firstpageanim()
 document.querySelectorAll(".elem").forEach(function (elem) {
-    var rotate = 0;
-    var diffrot = 0;
+    let rotate = 0;
+    let diffrot = 0;
   
     elem.addEventListener("mouseleave", function (dets) {
       gsap.to(elem.querySelector("img"), {
